@@ -5,6 +5,7 @@ import time
 from libs.version import *
 from twilio.rest import Client
 import sqlite3
+
 account_sid = 'ACfceec9936329f15857f4679e3fa75880'
 auth_token = '63c195cdcbf7b0f1e13d1764bcd4061c'
 
@@ -73,7 +74,7 @@ def main():
             from_="+12543182841",
             to=f"{numbers[i]}"
                                             )
-            time.sleep(10)
+            time.sleep(5)
             print(numbers[i])
             i = i + 1
     pass
