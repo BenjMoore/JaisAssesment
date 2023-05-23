@@ -15,3 +15,14 @@ for x in range(len(daQuotes)):
     conn.execute(f"INSERT INTO QUOTES(ID,Quote,QUOTES_STR) \
     VALUES ({x}, '{daQuotes[x]}', '{x}' )");
     x = x + 1
+
+
+
+
+
+
+
+
+
+
+
