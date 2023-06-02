@@ -7,7 +7,7 @@ from twilio.rest import Client
 import sqlite3
 
 account_sid = 'ACfceec9936329f15857f4679e3fa75880'
-auth_token = '63c195cdcbf7b0f1e13d1764bcd4061c'
+auth_token = '5a4a508d1c5a37c91e8e81b0f42b724b'
 
 
 # Download the helper library from https://www.twilio.com/docs/python/install
